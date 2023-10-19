@@ -36,3 +36,88 @@
     transform: rotate(360deg);
   }
 }
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  margin: 2vw;
+  
+ 
+}
+.navbar a{
+  color: rgb(47, 102, 75);
+  text-decoration: none;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bolder;
+  /* transition: all 2s ease; */
+}
+.navbar a:hover{
+  color: rgb(57, 156, 123);
+  
+}
+.databody{
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+
+}
+.addbutton{
+  font-size: 1.1rem;
+  color: white;
+  position: relative;
+  left: 35%;
+  background-color: rgb(18, 102, 74);
+  width: 12%;
+  height: 7vh;
+  border-radius: 20px;
+  border-color: transparent;
+
+}
+.addbutton:hover{
+  background-color: rgb(57, 156, 123);
+  color: #cbfceb;
+  
+}
+.addstudentdata{
+  display: inline-block;
+}
+tr,td{
+  font-size: 1.3rem;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+
+}
+tr,th{margin-right: 2vw;
+  padding: 5px;
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+  margin-bottom: 2vh;
+}
+
+/* .editContainer{
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+} */
+label{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(134, 103, 103);
+}
+ /* input{
+  width: 25vw;
+  margin-left: 37vw;
+} */
+.btnContainer button{
+  font-size: 1.2rem;
+  min-height: 8vh;
+  width: 150px;
+  background-color: rgb(23, 71, 51);
+  color: white;
+  border-radius: 20px;
+  border-color: transparent;
+  margin: 4vw;
+}
